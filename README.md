@@ -104,15 +104,12 @@ target/
 
 This project can be used for:
 
-* Java learning practice
-* Demo repository setup
-* Testing Java installation
+* Java Learning Praqctice 
+* Demo repo 
+* Testing Java Applocation
 * Basic GitHub project examples
 
 ## Contributing
 
 Contributions are welcome. Feel free to fork this repository and submit a pull request.
 
-## License
-
-This project is open source and available under the MIT License.
