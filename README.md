@@ -3,7 +3,7 @@
 
 A simple Java demo project created to demonstrate basic Java application structure, compilation, and execution.
 
-## Overview
+## Overview 
 
 This repository contains a basic Java application that can be used as a starting point for learning Java, testing Java setup, or demonstrating simple Java code organization.
 
@@ -101,8 +101,7 @@ target/
 ```
 
 ## Usage
-
-This project can be used for:
+This Project can beused for :
 
 * Java Learning Praqctice 
 * Demo repo 
@@ -111,5 +110,4 @@ This project can be used for:
 
 ## Contributing
 
-Contributions are welcome. Feel free to fork this repository and submit a pull request.
-
+Contribution is Welcome 
