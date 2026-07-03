@@ -82,24 +82,6 @@ public class Main {
 }
 ```
 
-## Expected Output
-
-```text
-Hello, Java Demo Project!
-```
-
-## Git Ignore
-
-Example `.gitignore` file:
-
-```gitignore
-*.class
-out/
-target/
-.idea/
-.vscode/
-```
-
 ## Usage
 This Project can beused for :
 
