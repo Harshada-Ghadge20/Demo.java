@@ -1,0 +1,61 @@
+class CollegeMember{
+    void showDetails(){
+        System.out.println("Here are the details college member ");
+    }
+    void department(){
+        System.out.println("College department  ");
+    }
+
+}
+
+class Teacher extends CollegeMember{
+    void department(){
+        System.out.println("AIML Department");
+    }
+    void name(){
+        System.out.println("name: Harshada");
+    }
+    void subject(){
+        System.out.println("subject : Java");
+    }
+    void salary(){
+        System.out.println("salary :25000");
+    }
+}
+
+class Watchman extends CollegeMember{
+     void department() {
+        System.out.println("Security Department");
+    }
+
+    void name(){
+        System.out.println("name : RamuKaka");
+        
+    }
+    void salary(){
+        System.out.println("salary :15000");
+    }
+}
+
+
+public class Main{
+    public static void main(String args[]){
+         
+        Teacher t1 = new Teacher();
+        Watchman w1 = new Watchman();
+
+
+        t1.showDetails();
+        t1.name();
+        t1.department();
+        t1.subject();
+        t1.salary();
+
+
+             System.out.println();
+
+        w1.department();
+        w1.name();
+        w1.salary();
+    }
+}
