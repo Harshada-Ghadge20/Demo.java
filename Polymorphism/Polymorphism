@@ -1,0 +1,40 @@
+class Payment{
+    void pay(){
+        System.out.println("Payment is processing");
+    }
+}
+
+
+class UPI extends Payment{
+    void pay(){
+  System.out.println("Payment done using UPI");
+    }
+}
+
+
+class CreditCard extends Payment{
+    void pay(){
+        System.out.println("Paymenet done suing CREDITCARD");
+    }
+}
+
+
+class NetBanking extends Payment{
+    void pay(){
+        System.out.println("payment done using NETBANKING");
+    }
+}
+
+
+public class Main{
+    public static void main(String args[]){
+        Payment p1 =new UPI();
+        Payment p2= new CreditCard();
+        Payment p3 = new NetBanking();
+
+
+        p1.pay();
+        p2.pay();p3.pay();
+
+    }
+}
