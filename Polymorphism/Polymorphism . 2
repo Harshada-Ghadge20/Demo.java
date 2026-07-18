@@ -1,0 +1,52 @@
+class MusicPlayer{
+    void play(){
+        System.out.println("MusicPlayer in starting...!!!");
+    }
+}
+
+class Spotify extends MusicPlayer{
+    void play(){
+        System.out.println("Spotify musicplayer is on");
+    }
+}
+
+class YouTube extends MusicPlayer{
+    void play(){
+    System.out.println("Youtube musicplayer is on");
+}
+}
+
+class LocalPlayer extends MusicPlayer{
+    void play(){
+        System.out.println("Loca musicplyer is on");
+    }
+}
+
+
+public class Main{
+    public static void main(String args[]){
+
+        MusicPlayer m1 =new MusicPlayer();
+        MusicPlayer m2 = new Spotify();
+        MusicPlayer m3 = new YouTube();
+        MusicPlayer m4= new LocalPlayer();
+
+
+        m1.play();
+        System.out.println();
+
+
+        m2.play();
+         System.out.println();
+
+
+
+        m3.play();
+         System.out.println();
+
+
+
+        m4.play();
+         System.out.println();
+    }
+}
